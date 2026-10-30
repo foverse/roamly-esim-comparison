@@ -90,22 +90,19 @@ npm start
 ```
 roamly-esim-comparison/
 ├── app/
-│   ├── [locale]/           # Localized route handlers (/en, /fr, /es)
-│   │   ├── layout.tsx      # Root localized layout with metadata
-│   │   └── page.tsx        # Comparison matrix page
-│   ├── layout.tsx          # Global html shell
-│   └── globals.css         # Token system and responsive styles
+│   ├── [lang]/                    # Localized routes (/en, /fr, /es)
+│   │   ├── layout.tsx             # Root localized layout with hreflang metadata
+│   │   └── page.tsx               # Main localized comparison view
+│   └── globals.css                # Pure CSS design token system
 ├── components/
-│   ├── CurrencySelector.tsx # Currency conversion switcher
-│   ├── FilterSidebar.tsx   # Filter controls for data, days, and providers
-│   ├── PlanCard.tsx        # Individual plan comparison card
-│   └── Header.tsx          # Navigation and locale selector
+│   └── comparison-explorer.tsx    # Interactive filter state, search, and plan cards
 ├── lib/
-│   ├── plans.ts            # eSIM plan catalogue and data structures
-│   ├── locales.ts          # Localization strings and translations
-│   └── currency.ts         # Exchange rates and formatters
-├── proxy.ts                # Locale negotiation helper
-└── package.json            # Dependencies and scripts
+│   ├── plans.ts                   # eSIM provider catalogue, models, and types
+│   └── i18n.ts                    # Dictionary strings and translation helpers
+├── proxy.ts                       # Accept-Language negotiation helper
+├── next.config.ts                 # Next.js configuration
+├── tsconfig.json                  # TypeScript configuration
+└── package.json                   # Dependencies and build scripts
 ```
 
 ---
