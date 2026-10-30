@@ -1,9 +1,9 @@
-# Roamly: Multilingual Travel eSIM Comparison Engine
+﻿# Roamly: Multilingual Travel eSIM Comparison Engine
 
 A fast, responsive comparison platform for international travel eSIM plans, built with Next.js App Router, React 19, and TypeScript.
 
 - Repository: [https://github.com/foverse/roamly-esim-comparison](https://github.com/foverse/roamly-esim-comparison)
-- Author: [Fouad Sennouni](https://growthmaker.fr) ([@foverse](https://github.com/foverse))
+- Author: [Fouad](https://growthmaker.fr) ([@foverse](https://github.com/foverse))
 - Project Hub: [growthmaker.fr](https://growthmaker.fr)
 
 ---
@@ -89,26 +89,26 @@ npm start
 
 ```
 roamly-esim-comparison/
-├── app/
-│   ├── [lang]/                    # Localized routes (/en, /fr, /es)
-│   │   ├── layout.tsx             # Root localized layout with hreflang metadata
-│   │   └── page.tsx               # Main localized comparison view
-│   └── globals.css                # Pure CSS design token system
-├── components/
-│   └── comparison-explorer.tsx    # Interactive filter state, search, and plan cards
-├── lib/
-│   ├── plans.ts                   # eSIM provider catalogue, models, and types
-│   └── i18n.ts                    # Dictionary strings and translation helpers
-├── proxy.ts                       # Accept-Language negotiation helper
-├── next.config.ts                 # Next.js configuration
-├── tsconfig.json                  # TypeScript configuration
-└── package.json                   # Dependencies and build scripts
+â”œâ”€â”€ app/
+â”‚   â”œâ”€â”€ [lang]/                    # Localized routes (/en, /fr, /es)
+â”‚   â”‚   â”œâ”€â”€ layout.tsx             # Root localized layout with hreflang metadata
+â”‚   â”‚   â””â”€â”€ page.tsx               # Main localized comparison view
+â”‚   â””â”€â”€ globals.css                # Pure CSS design token system
+â”œâ”€â”€ components/
+â”‚   â””â”€â”€ comparison-explorer.tsx    # Interactive filter state, search, and plan cards
+â”œâ”€â”€ lib/
+â”‚   â”œâ”€â”€ plans.ts                   # eSIM provider catalogue, models, and types
+â”‚   â””â”€â”€ i18n.ts                    # Dictionary strings and translation helpers
+â”œâ”€â”€ proxy.ts                       # Accept-Language negotiation helper
+â”œâ”€â”€ next.config.ts                 # Next.js configuration
+â”œâ”€â”€ tsconfig.json                  # TypeScript configuration
+â””â”€â”€ package.json                   # Dependencies and build scripts
 ```
 
 ---
 
 ## Author & Contact
 
-Built by [Fouad Sennouni](https://growthmaker.fr).
+Built by [Fouad](https://growthmaker.fr).
 
 Discover more case studies, conversion optimization frameworks, and web tools at [growthmaker.fr](https://growthmaker.fr).
